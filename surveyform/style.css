@@ -64,3 +64,8 @@ input {
 span {
     font-size: 14px;
 }
+
+label[for=number-label], #number-label {
+    padding: 0;
+    margin: 0;
+}
