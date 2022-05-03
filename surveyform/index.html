@@ -14,13 +14,17 @@
     </section>
     <main>
         <form action="" id="survey-form">
-            <label for="name-label">Name</label>
-            <input type="text" name="name" id="name" required placeholder="Enter your name">
+            <div class="name-form">
+                <label for="name-label">Name</label>
+                <input type="text" name="name" id="name" required placeholder="Enter your name">
+            </div>
 
-            <label for="email-label">Email</label>
-            <input type="email" name="email" id="email" required placeholder="Enter your Email">
+            <div class="email-form">
+                <label for="email-label">Email</label>
+                <input type="email" name="email" id="email" required placeholder="Enter your Email">
+            </div>
 
-            <label for="number-label">Age<span>(optional)</span></label>
+            <label for="number-label">Age <span>(optional)</span></label>
             <input type="number" name="age" id="number-label" required min="1" max = "99" placeholder="Age">
 
             <label for="role">Which option best describes your current role?</label>
