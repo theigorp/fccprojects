@@ -21,10 +21,10 @@
             <input type="email" name="email" id="email" required placeholder="Enter your Email">
 
             <label for="number-label">Age<span>(optional)</span></label>
-            <input type="number" name="age" id="number-label" required placeholder="Age">
+            <input type="number" name="age" id="number-label" required min="1" max = "99" placeholder="Age">
 
             <label for="role">Which option best describes your current role?</label>
-            <select name="role" id="role">
+            <select name="role" id="role" id="dropdown">
                 <option value="select-role" disabled selected>Select current role</option>
                 <option value="student">Student</option>
                 <option value="ftime-job">Full Time Job</option>
@@ -43,6 +43,7 @@
 
             <p>What is your favorite feature of freeCodeCamp?</p>
             <select name="feature" id="feature">
+                <option value="select-feature" disabled selected>Select an option</option>
                 <option value="challenge">Challenges</option>
                 <option value="projects">Projects</option>
                 <option value="community">Community</option>
@@ -50,32 +51,32 @@
             </select>
 
             <p>What would you like to see improved?<span>(Check all that apply)</span></p>
-            <input type="checkbox" name="improvements" id="frontend">
+            <input type="checkbox" name="improvements" id="frontend" value="frontend-projects">
             <label for="frontend">Front-end Projects</label>
-            <input type="checkbox" name="improvements" id="backend">
+            <input type="checkbox" name="improvements" id="backend" value="backend-projects">
             <label for="backend">Back-end Projects</label>
-            <input type="checkbox" name="improvements" id="data-viz">
+            <input type="checkbox" name="improvements" id="data-viz" value="data-viz">
             <label for="data-viz">Data Visualization</label>
-            <input type="checkbox" name="improvements" id="challenges">
+            <input type="checkbox" name="improvements" id="challenges" value="challenges">
             <label for="challenges">Challenges</label>
-            <input type="checkbox" name="improvements" id="open-source-community">
+            <input type="checkbox" name="improvements" id="open-source-community" value="open-source-com">
             <label for="open-source-community">Open Source Community</label>
-            <input type="checkbox" name="improvements" id="gitter-rooms">
+            <input type="checkbox" name="improvements" id="gitter-rooms" value="gitter-rooms">
             <label for="gitter-rooms">Gitter help rooms</label>
-            <input type="checkbox" name="improvements" id="videos">
+            <input type="checkbox" name="improvements" id="videos" value="videos">
             <label for="videos">Videos</label>
-            <input type="checkbox" name="improvements" id="meetups">
+            <input type="checkbox" name="improvements" id="meetups" value="city-meetups">
             <label for="meetups">City Meetups</label>
-            <input type="checkbox" name="improvements" id="wiki">
+            <input type="checkbox" name="improvements" id="wiki" value="wiki">
             <label for="wiki">Wiki</label>
-            <input type="checkbox" name="improvements" id="forum">
+            <input type="checkbox" name="improvements" id="forum" value="forum">
             <label for="forum">Forum</label>
-            <input type="checkbox" name="improvements" id="courses">
+            <input type="checkbox" name="improvements" id="courses" value="additional-courses">
             <label for="courses">Additional Courses</label>
 
             <label for="comments">Any comments or suggestions?</label>
             <textarea name="comments" id="comments" cols="20" rows="10" placeholder="Enter your comments here..."></textarea>
-            <button type="submit">Submit</button>
+            <button type="submit" id="submit">Submit</button>
         </form>
     </main>
 </body>
