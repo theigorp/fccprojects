@@ -16,10 +16,13 @@
         <form action="" id="survey-form">
             <label for="name-label">Name</label>
             <input type="text" name="name" id="name" required>
+
             <label for="email-label">Email</label>
             <input type="email" name="email" id="email" required>
+
             <label for="number-label">Age<span>(optional)</span></label>
             <input type="number" name="age" id="number-label" required>
+
             <label for="role">Which option best describes your current role?</label>
             <select name="role" id="role">
                 <option value="select-role" disabled selected>Select current role</option>
@@ -29,6 +32,35 @@
                 <option value="shy">Prefer not to say</option>
                 <option value="other">Other</option>
             </select>
+
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <input type="radio" name="recommend" id="radio1" checked>
+            <label for="radio1">Definitely</label>
+            <input type="radio" name="recommend" id="radio2">
+            <label for="radio2">Maybe</label>
+            <input type="radio" name="recommend" id="radio3">
+            <label for="radio3">Not sure</label>
+
+            <p>What is your favorite feature of freeCodeCamp?</p>
+            <select name="feature" id="feature">
+                <option value="challenge">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="open-source">Open Source</option>
+            </select>
+
+            <p>What would you like to see improved?<span>(Check all that apply)</span></p>
+            <input type="checkbox" name="improvements" id="frontend">
+            <input type="checkbox" name="improvements" id="backend">
+            <input type="checkbox" name="improvements" id="data-viz">
+            <input type="checkbox" name="improvements" id="challenges">
+            <input type="checkbox" name="improvements" id="open-source-community">
+            <input type="checkbox" name="improvements" id="gitter-rooms">
+            <input type="checkbox" name="improvements" id="videos">
+            <input type="checkbox" name="improvements" id="meetups">
+            <input type="checkbox" name="improvements" id="wiki">
+            <input type="checkbox" name="improvements" id="forum">
+            <input type="checkbox" name="improvements" id="courses">
         </form>
     </main>
 </body>
