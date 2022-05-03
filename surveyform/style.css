@@ -5,6 +5,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     background: #1b1b32;
+    color: #f3f3f3;
     background-image: linear-gradient(
         115deg,
         rgba(58, 58, 158, 0.8),
@@ -12,9 +13,33 @@ body {
       ),
       url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-size: cover;
+    padding: 50px 400px;
 }
 
 /*--color-white: #f3f3f3;
   --color-darkblue: #1b1b32;
   --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
   --color-green: #37af65;*/
+
+  .title-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  h1, p {
+      padding: 0;
+      margin: 0;
+  }
+
+  #title {
+      font-weight: 400;
+      font-size: 30px;
+  }
+
+  form {
+      display: flex;
+      flex-direction: column;
+  }
+
