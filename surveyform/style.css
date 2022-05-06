@@ -76,7 +76,13 @@ span {
     font-size: 14px;
 }
 
-input[type=radio] {
+input[type=radio], input[type=checkbox] {
     /* border: 0; */
     transform: scale(1.5);
+}
+
+textarea {
+    padding: 10px;
+    font-size: 14px;
+    max-height: 100px;
 }
