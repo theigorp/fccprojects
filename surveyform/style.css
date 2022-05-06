@@ -53,10 +53,15 @@ form {
     flex-direction: column;
 }
 
-input {
-    padding: 6px 12px;
+input, select {
+    padding: 8px 12px;
     border-radius: 5px;
     font-size: 16px;
+}
+
+select {
+    background-color: white;
+    color: #495057;
 }
 
 /*labels should have a bottom margin of 8px*/
