@@ -86,3 +86,30 @@ textarea {
     font-size: 14px;
     max-height: 100px;
 }
+
+button {
+    background-color: #37af65;
+    color: white;
+    padding: 16px 24px;
+    border: none;
+    font-size: 16px;
+}
+
+/*requiered for test*/
+@media (min-width: 576px) {
+    body {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      max-width: 720px;
+    }
+  }
+
+  @media (min-width: 480px) {
+    form {
+      padding: 2.5rem;
+    }
+  }
