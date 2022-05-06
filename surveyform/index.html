@@ -14,41 +14,47 @@
     </section>
     <main>
         <form action="" id="survey-form">
-            <div class="name-form">
+            <div class="form-group">
                 <label for="name-label">Name</label>
-                <input type="text" name="name" id="name" required placeholder="Enter your name">
+                <input type="text" name="name" id="name" class="kurcina" required placeholder="Enter your name">
             </div>
 
-            <div class="email-form">
+            <div class="form-group">
                 <label for="email-label">Email</label>
                 <input type="email" name="email" id="email" required placeholder="Enter your Email">
             </div>
 
-            <label for="number-label">Age <span>(optional)</span></label>
-            <input type="number" name="age" id="number-label" required min="1" max = "99" placeholder="Age">
-
-            <label for="role">Which option best describes your current role?</label>
-            <select name="role" id="role" id="dropdown">
-                <option value="select-role" disabled selected>Select current role</option>
-                <option value="student">Student</option>
-                <option value="ftime-job">Full Time Job</option>
-                <option value="ftime-learner">Full Time Learner</option>
-                <option value="shy">Prefer not to say</option>
-                <option value="other">Other</option>
-            </select>
-
-            <p>Would you recommend freeCodeCamp to a friend?</p>
-            <div class="radio-rcmnd">
-                <input type="radio" name="recommend" id="radio1" checked>
-                <label for="radio1">Definitely</label>
+            <div class="form-group">
+                <label for="number-label">Age <span>(optional)</span></label>
+                <input type="number" name="age" id="number-label" required min="1" max = "99" placeholder="Age">
             </div>
-            <div class="radio-rcmnd">
-                <input type="radio" name="recommend" id="radio2">
-                <label for="radio2">Maybe</label>
+
+            <div class="form-group">
+                <label for="role">Which option best describes your current role?</label>
+                <select name="role" id="role" id="dropdown">
+                    <option value="select-role" disabled selected>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="ftime-job">Full Time Job</option>
+                    <option value="ftime-learner">Full Time Learner</option>
+                    <option value="shy">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
             </div>
-            <div class="radio-rcmnd">
-                <input type="radio" name="recommend" id="radio3">
-                <label for="radio3">Not sure</label>
+
+            <div class="form-gorup">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <div class="radio-rcmnd">
+                    <input type="radio" name="recommend" id="radio1" checked>
+                    <label for="radio1">Definitely</label>
+                </div>
+                <div class="radio-rcmnd">
+                    <input type="radio" name="recommend" id="radio2">
+                    <label for="radio2">Maybe</label>
+                </div>
+                <div class="radio-rcmnd">
+                    <input type="radio" name="recommend" id="radio3">
+                    <label for="radio3">Not sure</label>
+                </div>
             </div>
 
             <p>What is your favorite feature of freeCodeCamp?</p>

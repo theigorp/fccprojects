@@ -48,7 +48,7 @@ form {
     gap: 10px;
 }
 
-.name-form, .email-form, .number-form {
+.form-group {
     display: flex;
     flex-direction: column;
 }
@@ -65,7 +65,7 @@ span {
     font-size: 14px;
 }
 
-label[for=number-label], #number-label {
+/* label[for=number-label], #number-label {
     padding: 0;
     margin: 0;
-}
+} */
