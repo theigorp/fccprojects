@@ -45,12 +45,13 @@ form {
     padding: 40px;
     border-radius: 5px;
     font-size: 18px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 input, select {
