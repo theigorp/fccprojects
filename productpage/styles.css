@@ -86,22 +86,33 @@ button {
 }
 
 .features {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding: 0 300px;
+    padding: 0px 315px;
+    margin-top: 100px;
 }
 
 .individual-features {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 10px;
+    gap: 60px;
+}
+
+.individual-features:nth-child(1) {
+    gap: 85px;
 }
 
 .features h2, p {
     padding: 0;
     margin: 0;
+}
+
+.icon2 {
+    margin-top: 5px;
+}
+
+.icon {
+    color: darkorange;
+    height: 125px;
+}
+
+.desc {
+    height: 125px;
 }
