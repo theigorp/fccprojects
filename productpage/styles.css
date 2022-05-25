@@ -47,3 +47,40 @@ ul {
     align-items: center;
     gap: 110px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* form is flex because input and button are in the same element and they should each be in their own line */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 5px;
+    font-size: 14px;
+    min-width: 250px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #f1c40f;
+    border: none;
+    min-width: 150px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
