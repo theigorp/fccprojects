@@ -2,10 +2,12 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #eee;
 }
 
 header {
-    padding: 10px 20px;
+    padding: 12px 20px;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -17,14 +19,20 @@ header {
     align-items: center;
 }
 
+.logo {
+    margin-left: 10px;
+}
+
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 85px;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 ul, li {
@@ -37,5 +45,5 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 110px;
 }
