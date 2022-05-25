@@ -164,3 +164,10 @@ footer ul {
 footer p {
     font-size: 14px;
 }
+
+/*add media query to pass fcc test, will do responsive in TOP*/
+@media (max-width: 650px) {
+    .logo > img {
+      margin: 0 auto;
+    }
+  }
