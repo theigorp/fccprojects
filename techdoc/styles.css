@@ -27,3 +27,11 @@ p, ul, li, a {
 a {
     text-decoration: none;
 }
+
+.content {
+    padding-left: 20px;
+}
+
+li {
+    margin-top: 15px;
+}
