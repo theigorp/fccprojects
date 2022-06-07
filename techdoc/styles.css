@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 html {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 body {
@@ -10,4 +13,17 @@ body {
 #navbar {
     display: flex;
     flex-direction: column;
+}
+
+.topic {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+p, ul, li, a {
+    color: #4d4e53;
+}
+
+a {
+    text-decoration: none;
 }
