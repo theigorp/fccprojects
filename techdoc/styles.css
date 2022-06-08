@@ -69,6 +69,7 @@ a {
     padding-left: 40px;
     padding-top: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 #main-doc p {
@@ -91,12 +92,21 @@ code {
     line-height: 2;
     margin: 10px;
     border-radius: 5px;
-    /* background-color: #f7f7f7; */
-    background-color: orange;
-    /* width: 100%; */
+    background-color: #f7f7f7;
     padding-top: 0;
     padding: 15px;
-    /* padding-left: 10px; */
-    /* padding-right: 45px; */
     min-width: 233px;
+}
+
+.topic a {
+    color: blue;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #navbar ul {
+      border: 1px solid;
+      height: 207px;
+    }
 }
