@@ -14,15 +14,14 @@ body {
 }
 
 #main-doc {
-    flex: 4;
+    margin-left: 20%;
+    padding: 20px 50px;
 }
 
 #navbar {
+    position: fixed;
+    width: 20%;
     border-right: 2px solid #4d4e53;
-    padding: 0;
-    margin: 0;
-    /* min-width: 20%; */
-    flex: 1;
 }
 
 #navbar li,ul {
