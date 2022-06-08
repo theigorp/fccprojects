@@ -82,18 +82,24 @@
             <div class="content">
                 <p>
                     JavaScript and Java are similar in some ways but fundamentally different in some others.
-                    The JavaScript language resembles Java but does not have Java's static<br>typing and strong
+                    The JavaScript language resembles Java but does not have Java's static typing and strong
                     type checking. JavaScript follows most Java expression syntax, naming conventions and basic
-                    control-flow constructs which was the reason why it<br>was renamed from LiveScript to JavaScript.
+                    control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
                 </p>
                 <p>
-                    In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing<br>numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based<br>model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative<br>requirements. Functions can be properties of objects, executing as loosely typed methods.
+                    In contrast to Java's compile-time system of classes built by declarations, JavaScript supports
+                    a runtime system based on a small number of data types representing numeric, Boolean, and string
+                    values. JavaScript has a prototype-based object model instead of the more common class-based
+                    object model. The prototype-based model provides dynamic inheritance; that is, what is
+                    inherited can vary for individual objects. JavaScript also supports functions without any
+                    special declarative requirements. Functions can be properties of objects, executing as
+                    loosely typed methods.
                 </p>
                 <p>
                     JavaScript is a very free-form language compared to Java. You do not have to declare all
-                    variables, classes, and methods. You do not have to be concerned with<br>whether methods are
+                    variables, classes, and methods. You do not have to be concerned with whether methods are
                     public, private, or protected, and you do not have to implement interfaces. Variables,
-                    parameters, and function return types are not explicitly<br>typed.
+                    parameters, and function return types are not explicitly typed.
                 </p>
             </div>
         </section>
@@ -106,8 +112,7 @@
                     To get started with writing JavaScript, open the Scratchpad and write your first "Hello world"
                     JavaScript code:
                 </p>
-                <code>
-                    function greetMe(yourName) { alert("Hello " + yourName); } <br>
+                <code>function greetMe(yourName) { alert("Hello " + yourName); }
                     greetMe("World");
                 </code>
                 <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
@@ -170,9 +175,7 @@
                 </p>
                 <code>if (true) { var x = 5; } console.log(x); // 5</code>
                 <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
-                <code>
-                    if (true) { let y = 5; } console.log(y); // ReferenceError: y is <br>
-                    not defined
+                <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined
                 </code>
             </div>
         </section>
@@ -213,15 +216,12 @@
                 <p>
                     You cannot declare a constant with the same name as a function or variable in the same scope. For example:
                 </p>
-                <code>
-                    // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS <br>
-                    WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; <br>
+                <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5;
+                    // THIS WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
                     //statements }
                 </code>
                 <p>However, object attributes are not protected, so the following statement is executed without problems.</p>
-                <code>
-                    const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = <br>
-                    "otherValue";
+                <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
                 </code>
             </div>
         </section>
@@ -271,9 +271,8 @@
                     further nested if statements.
                 </p>
                 <p>You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:</p>
-                <code>
-                    if (condition_1) { statement_1; } else if (condition_2) { <br>
-                    statement_2; } else if (condition_n) { statement_n; } else { <br>
+                <code>if (condition_1) { statement_1; } else if (condition_2) {
+                    statement_2; } else if (condition_n) { statement_n; } else { 
                     statement_last; }
                 </code>
                 <p>
@@ -282,10 +281,9 @@
                     In general, it's good practice to always use block statements, especially when nesting if
                     statements:
                 </p>
-                <code>
-                    if (condition) { statement_1_runs_if_condition_is_true; <br>
-                    statement_2_runs_if_condition_is_true; } else { <br>
-                    statement_3_runs_if_condition_is_false; <br>
+                <code>if (condition) { statement_1_runs_if_condition_is_true; 
+                    statement_2_runs_if_condition_is_true; } else { 
+                    statement_3_runs_if_condition_is_false; 
                     statement_4_runs_if_condition_is_false; }
                 </code>
                 <p>
