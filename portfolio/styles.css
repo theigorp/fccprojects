@@ -7,5 +7,21 @@ body {
 }
 
 header{
-    background-color: red; 
+    background-color: #be3144;;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
