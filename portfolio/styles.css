@@ -12,16 +12,28 @@ header{
     top: 0;
 }
 
-nav {
+ul {
     display: flex;
+    gap: 12px;
+    justify-content: flex-end;
 }
 
-ul, li {
+nav ul, li {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    font-size: 22px;
 }
 
-a {
+nav a {
     text-decoration: none;
+    color: white;
+}
+
+nav li {
+    padding: 20px;
+}
+
+li:hover {
+    background-color: blue;
 }
