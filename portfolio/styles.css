@@ -151,3 +151,23 @@ h3 {
 .btn:hover > .fas {
     transform: translateX(2px);
 }
+
+.collab {
+    background-color: #303841;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collab h2 {
+    color: white;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.collab h4 {
+    color: white;
+}
