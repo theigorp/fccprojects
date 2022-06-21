@@ -123,4 +123,20 @@ h3 {
     font-size: 20px;
     text-decoration: none;
     font-style: normal;
+    transition: 0.3s ease-out;
+    border-radius: 2px;
+}
+
+.btn > .fas {
+    margin-left: 7px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+}
+
+.btn:hover {
+    background-color: #be3144;
+}
+
+.btn:hover > .fas {
+    transform: translateX(2px);
 }
