@@ -69,6 +69,10 @@ h2 {
 
 #projects {
     background-color: #45567d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
