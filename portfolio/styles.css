@@ -114,6 +114,17 @@ h3 {
     align-items: center;
 }
 
+.project-name > .code 
+{
+    color: #303841;
+    transition: color 0.3s ease-out;
+}
+
+.project-name:hover > .code 
+{
+    color: #ff7f50;
+}
+
 .btn {
     margin-top: 30px;
     background-color: #303841;
