@@ -73,6 +73,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 15px 80px;
 }
 
 h3 {
@@ -85,12 +86,13 @@ h3 {
 }
 
 .project-list img {
-    height: 500px;
-    width: 500px;
-    object-fit: none;
+    height: 370px;
+    width: 370px;
+    object-fit:cover;
 }
 
 .project-grid {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
