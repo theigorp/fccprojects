@@ -11,7 +11,7 @@ header{
     position: sticky;
     top: 0;
     padding-right: 15px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -55,6 +55,7 @@ h1, h2 {
 }
 
 h1 {
+    font-family: 'Raleway', sans-serif;
     font-size: 65px;
     color: white;
     margin-bottom: 10px;
@@ -62,7 +63,7 @@ h1 {
 
 h2 {
     color: #be3144;
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
     font-size: 30px;
     margin-bottom: 130px;
