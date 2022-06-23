@@ -185,3 +185,13 @@ h3 {
     font-size: 18px;
     margin-bottom: 50px;
 }
+
+.social-media {
+    margin-bottom: 70px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
