@@ -166,8 +166,12 @@ h3 {
     font-size: 60px;
     font-style: normal;
     font-weight: 500;
+    margin: 0;
+    padding: 0;
 }
 
 .collab h4 {
     color: white;
+    margin: 0;
+    padding: 0;
 }
