@@ -242,3 +242,7 @@ footer p, a {
     font-size: 18px;
     font-weight: 300;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
