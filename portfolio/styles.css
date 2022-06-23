@@ -200,3 +200,7 @@ h3 {
 .social-network {
     margin-right: 35px;
 }
+
+.fab, .fas {
+    text-shadow: 2px 2px 1px black;
+}
