@@ -188,6 +188,9 @@ h3 {
 
 .social-media {
     margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-media a {
@@ -203,4 +206,12 @@ h3 {
 
 .fab, .fas {
     text-shadow: 2px 2px 1px black;
+}
+
+.social-network {
+    transition: transform 0.3s ease-out;
+}
+
+.social-network:hover {
+    transform: translate(-20px, 50%);
 }
