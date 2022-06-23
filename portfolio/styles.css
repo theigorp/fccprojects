@@ -213,5 +213,5 @@ h3 {
 }
 
 .social-network:hover {
-    transform: translate(-20px, 50%);
+    transform: translateY(8px);
 }
