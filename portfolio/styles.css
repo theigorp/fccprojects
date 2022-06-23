@@ -191,6 +191,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* height: 80vh; */
 }
 
 .social-media a {
@@ -214,4 +215,9 @@ h3 {
 
 .social-network:hover {
     transform: translateY(8px);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
 }
