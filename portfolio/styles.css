@@ -219,5 +219,19 @@ h3 {
 
 footer a {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+footer {
+    border-top: 5px solid #be3144;
+    color: white;
+    background-color: #303841;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p, a {
+    font-size: 18px;
+    font-weight: 300;
 }
